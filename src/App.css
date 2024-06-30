@@ -74,3 +74,58 @@ gradient-button
 .gradient-button:hover {
   background: linear-gradient(to left, #7237dd, #413aaf);
 }
+
+/* Add padding and margin to h1 and p */
+h1, p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+/* Style the word "CARD" to match the feature button color */
+.card-title span {
+  color: #7C3AED; /* Change to your desired color */
+}
+/* App.css */
+
+.section-title {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.section-paragraph {
+  margin-bottom: 20px;
+  text-align: center;
+  color: gray; /* Assuming you want the gray color here as well */
+}
+
+/* App.css */
+
+.section-title {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.section-paragraph {
+  margin-bottom: 20px;
+  text-align: center;
+  color: gray; /* Assuming you want the gray color here as well */
+}
+
+/* App.css */
+
+.benefit-box {
+  background-color: #1b1426; /* Background color */
+  color: white; /* Text color */
+  border: 2px solid white; /* White border */
+  border-radius: 0; /* Square shape (no border radius) */
+  text-align: center; /* Center-align text */
+  padding: 20px; /* Padding inside the box */
+  height: 100%; /* Ensures the box takes full height of the column */
+  display: flex; /* Flexbox for centering content */
+  flex-direction: column; /* Column direction for flex items */
+  justify-content: center; /* Center content vertically */
+}
+
