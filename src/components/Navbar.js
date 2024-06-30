@@ -1,8 +1,21 @@
 import React from 'react';
 
 const Navbar = () => {
+  const navbarStyle = {
+    backgroundColor: 'rgb(26, 26, 38)',
+  };
+
+  const gradientButtonStyle = {
+    background: 'linear-gradient(181.76deg, #1E3A8A 1.48%, #7C3AED 98.51%)',
+    border: 'none',
+    color: 'white',
+    padding: '10px 20px',
+    borderRadius: '5px',
+    cursor: 'pointer',
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style={{ backgroundColor: 'rgb(26, 26, 38)' }}>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style={navbarStyle}>
       <div className="container navbar-center">
         <a className="navbar-brand" href="#">NFTGlobal</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +37,7 @@ const Navbar = () => {
             </li>
           </ul>
           <form className="d-flex ms-auto">
-            <button className="gradient-button" type="button">Get Your Card Now</button>
+            <button className="btn" style={gradientButtonStyle}>Get Your Card Now</button>
           </form>
         </div>
       </div>
